@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "../styles\estilo.css">
+<title>INSTALACIÓN DE DIFERENTES SOFTWARE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+  $("#menuofimatico").click(function(){
+    $("article").hide()
+    $("#ofimatico").show();
+  });
+  $("#menurecuperaciondedatos").click(function(){
+    $("article").hide()
+    $("#recuperaciondedatos").show();
+  });
+  $("#menuantivirus").click(function(){
+    $("article").hide()
+    $("#antivirus").show();
+  });
+  $("#menuportable").click(function(){
+    $("article").hide()
+    $("#portable").show();
+  });  
+});
+</script>
+</head>
+<body>
+<header>
+  <h2>Instalación de los diferentes software</h2>
+</header>
+<h2>Instalación de software de propósito general</h2>
+<p> En esta pagina web hablaremos sobre las diferentes instalaciones de software que he ido realizando.</p>
+<p>En cada software instalado hablaremos de como lo hemos instalado, los pasos que hemos seguido, como funciona,para que sirve y ventajas o desventajas.</p>
+<section>
+  <div class="divnav">
+  <nav>
+    <ul>
+      <li id="menuofimatico"><a href="#ofimatico">Ofimático</a></li>
+      <li id="menurecuperaciondedatos"><a href="#recuperaciondedatos">Recuperación de datos</a></li>
+      <li id="menuantivirus"><a href="#antivirus">Antivirus</a></li>
+      <li id="menuportable"><a href="#portable">Portable</a></li>
+    </ul>
+  </nav>
+  <article id="ofimatico">
+    <iframe  style="width:100%; border:none"src="/pages/Ofimático.html"></iframe>
+  </article>
+  <article id="recuperaciondedatos">
+    <iframe   style="width:100%; border:none"src="/pages/Recuperación de datos.html"></iframe>
+  </article>
+  <article id="antivirus">
+    <iframe style="width:100%; border:none"src="/pages/Antivirus.html"></iframe>
+  </article>
+  <article id="portable">
+    <iframe style="width:100%; border:none"src="/pages/Portable.html"></iframe>
+  </article>
+  </div>
+</section>
+
+<footer>
+  <p>1º ASIR IES Medina Azahara Jesús Romero Medina</p>
+ <div class="row">
+   <div class="column">
+     <img alt="LO" src="../img\LO.png"/>
+     <img alt="EAW" src="../img\EAW.png"/>
+     <img alt="TotalAV" src="../img\TotalAV.png"/>
+     <img alt="bler"  src="../img\bler.png"/>
+   </div>
+
+ </div>
+ <form>
+    <label for="nombre">Valoración:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <input type="submit" value="Enviar">
+ </form>
+ </footer>
+</body>
+</html>
