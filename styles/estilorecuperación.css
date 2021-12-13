@@ -1,0 +1,92 @@
+* {
+    background-color: blanchedalmond;
+    color: black;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Style the header */
+header {
+    text-align: center;
+    font-size: 15px;
+    border: 3px solid black;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/EaseUS_Data_Recovery_Wizard_Logo.png);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+h1{
+    margin-left: 100px;
+  }
+ol {
+    list-style-type:disc;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    overflow: hidden;
+  }
+li{
+    margin:5px 5px 5px 5px;
+  }
+  #background{
+    position:relative;
+    z-index:1;
+    width:50%;
+    height:50%;
+    float: left;
+    margin-left:15px;
+    margin-right: 15px;
+  }
+  .flex-container {
+    display: flex;
+    background-color: rgb(2, 12, 15);
+  }
+  
+  .flex-container > div {
+    background-color: #f5f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .container {
+    width: 98%;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    top: 20px;
+    min-width: 250px;
+    margin-top: 50px;
+    display: flex;
+  }
+  .container-decor {
+    border: 4px solid #01080c;
+    color: rgb(236, 231, 231);
+    font-family: times;
+    font-size: 25px;
+    background: #6794af;
+    text-align:center;
+  }
+  .container:before {
+    top: -33px;
+    left: 48%;
+    transform: rotate(45deg);
+    position: absolute;
+    border: solid #020a0f;
+    border-width: 4px 0 0 4px;
+    background: #7caac7;
+    content: '';
+    width: 56px;
+    height: 56px;
+  }
+  div.noticia {
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+  }
+ .aside{
+    display: right;
+    text-align: justify;
+  }
+  div.reset {
+    clear: both;
+    text-align: center;
+  }

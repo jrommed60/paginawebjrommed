@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(138, 121, 66);
+  background-image: url(https://acegif.com/wp-content/gifs/water-47.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+/* Style the header */
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(10, 3, 3);
+}
+nav {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the list inside the menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover {
+  background-color: #469483;
+  color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #f1f1f1;
+  height:700px;
+ }
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+iframe{
+  height:700px;
+}
+form{
+  text-align: center;
+  color: white;
+}
+img{
+  width: 100px;
+}
+.row{
+  display: flex;
+  padding: 5px;
+}
+.column{
+  flex: 25px;
+  padding:5px;
+}
+.column img{
+  margin-top:5px;
+}
+@media (max-width:600px) {
+  .column{
+    flex: 100px;
+  }
+}
+#reloj { 
+  width: 150px; 
+  height: 30px; 
+  padding: 5px 10px; 
+  border: 1px solid black; 
+  font: bold 1.5em dotum, "lucida sans", arial; 
+  text-align: center;
+  float: right; 
+  margin: 1em 3em 1em 1em; 
+}
